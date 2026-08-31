@@ -1,9 +1,11 @@
-import React from 'react'
+import LoginLeft from '../components/LoginLeft'
 
-const AuthPage = () => {
+const AuthPage = ({ mode }) => {
   return (
-    <div>AuthPage</div>
-  )
-}
+    <div className="min-h-screen bg-white flex text-zinc-900 font-sans">
+      <LoginLeft />
+    </div>
+  );
+};
 
-export default AuthPage
+export default AuthPage;
